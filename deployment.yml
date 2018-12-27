@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: pet-clinic-app
-        image: katson95/pet-clinic:$latest
+        image: katson95/pet-clinic:latest
         ports:
         - containerPort: 8080
           name: server
