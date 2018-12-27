@@ -12,4 +12,4 @@ spec:
     name: management
   selector:
     app: pet-clinic-app
-  type: Loadbalancer
+  type: LoadBalancer
