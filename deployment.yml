@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: pet-clinic-app
-        image: katson95/pet-clinic:latest
+        image: docker.ops.dev.invent-360.com/katson95/pet-clinic:latest
         ports:
         - containerPort: 8080
           name: http
